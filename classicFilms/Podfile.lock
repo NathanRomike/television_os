@@ -1,0 +1,30 @@
+PODS:
+  - AutoScrollLabel (0.4.2)
+  - NewRelicAgentTVOS (6.2.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+
+DEPENDENCIES:
+  - AutoScrollLabel (~> 0.4.2)
+  - NewRelicAgentTVOS
+  - SDWebImage (from `https://github.com/rs/SDWebImage`, branch `master`)
+
+EXTERNAL SOURCES:
+  SDWebImage:
+    :branch: master
+    :git: https://github.com/rs/SDWebImage
+
+CHECKOUT OPTIONS:
+  SDWebImage:
+    :commit: 30e9e0b516cca03d9f2abe75a91512d75b846406
+    :git: https://github.com/rs/SDWebImage
+
+SPEC CHECKSUMS:
+  AutoScrollLabel: 661f3f33042db40e495cb4ebe599b903c8bf80cd
+  NewRelicAgentTVOS: 9be62d77c701434f5cce20aa50dd44735e1c2288
+  SDWebImage: c1dead4078fcc93cd2e5715353ec6d2e3cead9b8
+
+PODFILE CHECKSUM: ba6cfc93c3e3cb47e5842561172be93a9a32b771
+
+COCOAPODS: 1.2.1
